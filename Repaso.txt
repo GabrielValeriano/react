@@ -1,0 +1,21 @@
+React : 
+. vite.config.js: no se toca
+. Readme: instrucciones de como levantar nuestro programa, como funciona, de que se trata
+. package.json: Sin este archivo no levanta, todo lo que esta en este no se toca 
+  -las dependencias son herramientas que nos sirven para el desarrollo de la pagina
+. Siempre asegurar se de estar en el run de la aplicacion para que corra el programa
+. Nos movemos a la carpeta ponemos npm install
+. siempre tiene que estar el notnulls
+. npm run dev
+. Index.html: no se toca 
+. main.jsx: no se toca es el punto de entrada en la app
+ - crearRoot: crea un punto de entrada al index 
+  -. Los componentes arrancan en mayuscula
+ - Se importan puntos de entrada en la app
+. app.jsx: 
+ - Funcion: devuelve logica
+ - Export defoult App para una funcion
+ - return: devuelve lo que vamos a ver
+ - El estado tiene 3 partes const(variable, setVariable) = useState(valor inicial); 
+ - usetate: es un hook que nos permite ejecutar el codigo que esta adentro de el una o las veces que sean necesarias
+ - Hook: un gancho que nos permite manipular datos, siempre arranca en minuscula la palabra useVariable
