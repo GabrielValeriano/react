@@ -1,7 +1,13 @@
 import "./App.css";
-import { Users } from "./Components/Users";
+
 // siempre que sea import sea 'nombrado' van llaves
-import Employees from "./Components/Employees";
+
+import Contador from "./Components/Ejercicio_contador";
+import SimuladorDeCarga from "./Components/Ejercicio_Montartimer";
+import InputRealTime from "./Components/Ejercicio_Mostrar";
+import SaludoPersonalizado from "./Components/Ejercicio_SaludoPers";
+import EffectOnMount from "./Components/Ejercicio_useEffect";
+
 // si el import es no nombrado o por defu
 
 function App() {
@@ -12,9 +18,11 @@ function App() {
   //npm run dev para correr el programa
   return (
     <>
-      <Users name="Tomas, " />
-      Hola mundo
-      <Employees />
+      <Contador />
+      <InputRealTime />
+      <EffectOnMount />
+      <SimuladorDeCarga />
+      <SaludoPersonalizado />
     </>
   );
 }
