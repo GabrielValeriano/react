@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import "./App.css";
 
 // siempre que sea import sea 'nombrado' van llaves
@@ -16,6 +17,13 @@ function App() {
 
   //npm install para instalar dependencia
   //npm run dev para correr el programa
+
+ useEffect{()=> {
+  //useEffect ejecuta el codigo una vez si no hay nada en los
+  //corchetes, y si hay variables(dependencias)
+  //se va a ejecutar tanto como actualize
+ }}
+ 
   return (
     <>
       <Contador />
